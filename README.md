@@ -1,12 +1,12 @@
 # M1_IL_IPR_PROJECT
-1- Run mosquitto & rabbitmq & influxdb
-2- Run App.java (usine1)
-3- Run API.java (usine1 -> mosquitto <- ThreadSend -> JSONSend -> Rabbitmq <- JSONRecv -> addToInfluxdb -> influxdb)
+1. Run mosquitto & rabbitmq & influxdb
+2. Run App.java (usine1)
+3. Run API.java (usine1 -> mosquitto <- ThreadSend -> JSONSend -> Rabbitmq <- JSONRecv -> addToInfluxdb -> influxdb)
 some default variable of API.java :
 - EXCHANGE_NAME = "AbdelEX"
 - TOPIC_NAME = "/core1/temperature" ...
 - dbname = "AbdelDB" for influxdb
-4- Run grafana and browse this link (http://localhost:3000)
+4. Run grafana and browse this link (http://localhost:3000)
 first connexion in grafana (id:admin psw:admin)
 data source -> add data source -> select influxdb
 -- choose name
