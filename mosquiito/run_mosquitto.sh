@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo docker run --rm --name mosquitto -d -p 8084:1883 -v $(pwd)/password.txt:/mosquitto/config/password.txt -v $(pwd)/mosquitto.conf:/mosquitto/config/mosquitto.conf -p 8085:9001 eclipse-mosquitto
