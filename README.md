@@ -16,7 +16,7 @@ data source -> add data source -> select influxdb
 * Now we will create a new dashboard:
 * create new dashboard -> choose visiualisation --> choose graph
 for exemple you need to follow the progress of /core1/temperature
-*general -> choose title.
-*queries -> SELECT mean("value") FROM "temperature" WHERE ("core_name" = 'core1') 
+* general -> choose title.
+* queries -> SELECT mean("value") FROM "temperature" WHERE ("core_name" = 'core1') 
                 AND $timeFilter GROUP BY time($__interval) fill(null).
-*save dashboard and enjoy your progress with awesome graph from grafana
+* save dashboard and enjoy your progress with awesome graph from grafana
