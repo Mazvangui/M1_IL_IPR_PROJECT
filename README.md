@@ -13,7 +13,7 @@ data source -> add data source -> select influxdb
 * URL = http://localhost:8086
 * DATABASE = AbdelDB
 * hit Save&Test button
-Now we will create a new dashboard:
+*Now we will create a new dashboard:
 * create new dashboard -> choose visiualisation --> choose graph
 for exemple you need to follow the progress of /core1/temperature
 *general -> choose title.
