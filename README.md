@@ -20,3 +20,5 @@ for exemple you need to follow the progress of /core1/temperature
 * queries -> SELECT mean("value") FROM "temperature" WHERE ("core_name" = 'core1') 
                 AND $timeFilter GROUP BY time($__interval) fill(null).
 * save dashboard and enjoy your progress with awesome graph from grafana
+5. show the last 10 result:
+* https://github.com/Mazvangui/M1_IL_IPR_PROJET_SERVLET
