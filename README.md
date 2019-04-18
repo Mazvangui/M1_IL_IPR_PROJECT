@@ -6,7 +6,7 @@ some default variable of API.java :
 - EXCHANGE_NAME = "AbdelEX"
 - TOPIC_NAME = "/core1/temperature" ...
 - dbname = "AbdelDB" for influxdb
-4. Run grafana and browse this link (http://localhost:3000)
+4. Run grafana with root right and browse this link (http://localhost:3000)
 first connexion in grafana (id:admin psw:admin)
 data source -> add data source -> select influxdb
 * choose name
