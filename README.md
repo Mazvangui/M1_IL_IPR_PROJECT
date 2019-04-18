@@ -22,3 +22,9 @@ for exemple you need to follow the progress of /core1/temperature
 * save dashboard and enjoy your progress with awesome graph from grafana
 5. show the last 10 result:
 * https://github.com/Mazvangui/M1_IL_IPR_PROJET_SERVLET
+
+6. SOME BUG RESOLVED:
+* docker: invalid reference format.
+See 'docker run --help'.
+* this error come from an invalid path.
+* for exemple /Desktop/test code/mosquitto/ here the white space causes this error
